@@ -10,12 +10,12 @@ Installaion
 
 Getting started
 --------
-Before
---------
+**Before**
+
 Install Ryu controller and mininet.
 
-Run the application
---------
+**Run the application**
+
 **1. Generate Fattree topology**
 
     $ sudo {file_path}/fatTreeTopology.py
