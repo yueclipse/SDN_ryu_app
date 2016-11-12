@@ -13,27 +13,24 @@ How to ping?
 If switch receives the packet and it has no corresponding flow table, it will direct the packet to the controller (called packet in).
 Since the controller knows the entire topology including hosts (after the learning when controller boots), the controller will add flow table to each switch on the path to tell them how to transfer packets.
 
+![alt tag](https://github.com/yueclipse/SDN_ryu_app/blob/master/image/ping.gif)
+
 Traffic monitor
 ---------
+To achieve load-balanced flows, the traffic monitor monitors each switch that controller can decide how to route the flow.
+![alt tag](https://github.com/yueclipse/SDN_ryu_app/blob/master/image/traffic monitor.jpg)
 
-
-Getting started
+Run the application
 ---------
-**Before**
-
-Install Ryu controller and mininet.
-
-**Run the application**
-
-**1. Generate Fattree topology**
+**Generate Fattree topology**
 
     $ sudo {file_path}/fatTreeTopology.py
 
-**2. Execute controller code**
+**Execute controller code**
 
     $ ryu-manager --observe-links {file_path}/fatTreeMultipath.py
 
-**3. Test**
+**Test by a simple ping**
 
     minimet> h001 ping h005
 
