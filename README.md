@@ -22,6 +22,7 @@ To achieve load-balanced flows, the traffic monitor monitors each switch that co
 ![alt tag](https://github.com/yueclipse/SDN_ryu_app/blob/master/image/traffic monitor.jpg)
 
 **Result**
+
 In a simple experiment, if all host ping to host 008, traffic monitor will help controller to decide a better path to the destination.
 
 ![alt tag](https://github.com/yueclipse/SDN_ryu_app/blob/master/image/result.jpg)
