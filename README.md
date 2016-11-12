@@ -2,6 +2,8 @@ Overview
 ---------
 This application introduced how ryu controller runs on fat tree topology and provides a simple method for load-balance.
 
+![alt tag](https://github.com/yueclipse/SDN_ryu_app/blob/master/image/fat tree.jpg)
+
 Installaion
 ---------
 * Python
