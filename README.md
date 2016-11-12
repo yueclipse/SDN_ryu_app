@@ -35,7 +35,7 @@ Run the application
 
     $ sudo {file_path}/fatTreeTopology.py
 
-**Execute controller code**
+**Execute controller code (in another window)**
 
     $ ryu-manager --observe-links {file_path}/fatTreeMultipath.py
 
