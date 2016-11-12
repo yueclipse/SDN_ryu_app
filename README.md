@@ -18,7 +18,13 @@ Since the controller knows the entire topology including hosts (after the learni
 Traffic monitor
 ---------
 To achieve load-balanced flows, the traffic monitor monitors each switch that controller can decide how to route the flow.
+
 ![alt tag](https://github.com/yueclipse/SDN_ryu_app/blob/master/image/traffic monitor.jpg)
+
+**Result**
+In a simple experiment, if all host ping to host 008, traffic monitor will help controller to decide a better path to the destination.
+
+![alt tag](https://github.com/yueclipse/SDN_ryu_app/blob/master/image/result.jpg)
 
 Run the application
 ---------
