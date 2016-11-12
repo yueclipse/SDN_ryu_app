@@ -45,6 +45,6 @@ Run the application
 
 Reference links
 ---------
-[OpenFlow](https://www.opennetworking.org/sdn-resources/openflow)
+* [OpenFlow](https://www.opennetworking.org/sdn-resources/openflow)
 
-[OpenFlow based Load Balancing for Fat-Tree Networks with Multipath Support](http://users.cis.fiu.edu/~pand/publications/13icc-yu.pdf)
+* [OpenFlow based Load Balancing for Fat-Tree Networks with Multipath Support](http://users.cis.fiu.edu/~pand/publications/13icc-yu.pdf)
